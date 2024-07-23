@@ -7,5 +7,8 @@
 
 
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
-// The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable answer.
+
+for (let i = 1; i <= answer; i++) {
+    console.log(i);
+  }
 
